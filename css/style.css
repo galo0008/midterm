@@ -1,0 +1,176 @@
+
+* {
+  box-sizing: border-box;
+
+  
+}
+
+body {
+  background-color: #aad4cf; 
+  font-family:  'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+main {
+  background-color:  #d4e9e7; 
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+
+header {
+  position: relative;
+  text-align: center;
+}
+
+header img {
+  width: 80%;
+  height: 400px;
+  object-fit: cover;
+}
+
+header h1 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 72px;
+
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+  .nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+      
+}
+
+
+  .nav li {
+    margin: 0 10px;
+    position: relative;
+  }
+
+  .nav li:not(:last-child)::after {
+    content: "|";
+    position: absolute;
+    right: -60px;
+    font-size: 32px;
+   
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    
+  }
+
+
+
+
+
+article img.wrap-image {
+  float: left;
+  width: 200px;
+  margin: 0 20px 10px 0;
+}
+
+article:after {
+  content: "";
+  display: block;
+  clear: both;
+  
+}
+
+.facts ul {
+  padding-left: 20px;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  background-color:#d4e9e7;
+  border: 2px solid black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+footer {
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+form {
+  border: 2.5px solid black;
+  margin: 40px;
+  padding: 20px;
+  box-sizing: content-box;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 0px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+form textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+form input[type="radio"] {
+  margin-right: 5px;
+}
+
+form label input[type="radio"] {
+  display: inline-block;
+}
+
+form label {
+  display: inline-block;
+  margin-right: 20px;
+}
+form p {
+  font-size: 23px;
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 28px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+
